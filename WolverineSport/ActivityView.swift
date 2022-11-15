@@ -11,8 +11,23 @@ struct ActivityView: View {
     var body: some View {
         NavigationView {
             VStack{
+                HStack{
+                    Image(systemName: "circle.fill")
+                        .resizable()
+                        .frame(width: 125, height: 125)
+                        .foregroundColor(.red)
+                        .padding(.trailing)
+                    VStack{
+                        Text("Title of Sport")
+                            .font(.title)
+                            .bold()
+                        Text("Fall 2022")
+                    }
+                }
+                .padding()
                 Text("A-League Teams:")
                     .frame(maxWidth: .infinity, alignment: .leading)
+                    .bold()
                 ScrollView(.horizontal) {
                     HStack(spacing: 20) {
                         ForEach(0..<10) {_ in
@@ -35,6 +50,61 @@ struct ActivityView: View {
                         }
                     }
                 }
+                .padding()
+                
+                Text("B-League Teams:")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .bold()
+                ScrollView(.horizontal) {
+                    HStack(spacing: 20) {
+                        ForEach(0..<10) {_ in
+                            NavigationLink{
+                                TeamView()
+                            } label: {
+                                HStack{
+                                    Image(systemName: "circle")
+                                        .resizable()
+                                        .frame(width: 25, height: 25)
+                                        .foregroundColor(.white)
+                                    Text("Team")
+                                        .font(.title2)
+                                }
+                                .foregroundColor(.white)
+                                .frame(width: 150, height: 125)
+                                .background(.red)
+                                .cornerRadius(20)
+                            }
+                        }
+                    }
+                }
+                .padding()
+                
+                Text("C-League Teams:")
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .bold()
+                ScrollView(.horizontal) {
+                    HStack(spacing: 20) {
+                        ForEach(0..<10) {_ in
+                            NavigationLink{
+                                TeamView()
+                            } label: {
+                                HStack{
+                                    Image(systemName: "circle")
+                                        .resizable()
+                                        .frame(width: 25, height: 25)
+                                        .foregroundColor(.white)
+                                    Text("Team")
+                                        .font(.title2)
+                                }
+                                .foregroundColor(.white)
+                                .frame(width: 150, height: 125)
+                                .background(.red)
+                                .cornerRadius(20)
+                            }
+                        }
+                    }
+                }
+                .padding()
             }
         }
     }
