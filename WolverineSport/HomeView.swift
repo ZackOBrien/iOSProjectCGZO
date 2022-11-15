@@ -71,6 +71,7 @@ struct HomeView: View {
                         Text("Zack is volleyball MVP!")
                     }.frame(maxWidth: .infinity, alignment: .leading)
                 }
+                .padding(.leading)
                 .frame(width: 375, height: 200)
                 .background(Color.white)
                 .cornerRadius(25)
@@ -81,6 +82,7 @@ struct HomeView: View {
                     Text("Upcomming games:")
                         .font(.title)
                         .frame(maxWidth: .infinity, alignment: .leading)
+                        .padding(.bottom)
                     HStack{
                         Text("Team 1 vs Team 2 A League Basketball")
                     }.frame(maxWidth: .infinity, alignment: .leading)
@@ -95,6 +97,7 @@ struct HomeView: View {
 //                        .frame(width: 100, height: 100)
 //                        .foregroundColor(.red)
                 }
+                .padding(.leading)
                 .frame(width: 375, height: 200)
                 .background(Color.white)
                 .cornerRadius(25)
