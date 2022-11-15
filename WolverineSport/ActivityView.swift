@@ -8,17 +8,18 @@
 import SwiftUI
 
 struct ActivityView: View {
+    @State var sport = ""
     var body: some View {
         NavigationView {
             VStack{
                 HStack{
-                    Image(systemName: "circle.fill")
+                    Image(systemName: "\(sport.lowercased())")
                         .resizable()
                         .frame(width: 125, height: 125)
                         .foregroundColor(.red)
                         .padding(.trailing)
                     VStack{
-                        Text("Title of Sport")
+                        Text("IM \(sport)")
                             .font(.title)
                             .bold()
                         Text("Fall 2022")
@@ -112,6 +113,6 @@ struct ActivityView: View {
 
 struct ActivityView_Previews: PreviewProvider {
     static var previews: some View {
-        ActivityView()
+        ActivityView(sport: "Basketball")
     }
 }

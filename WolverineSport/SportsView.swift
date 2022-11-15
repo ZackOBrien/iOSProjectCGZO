@@ -14,7 +14,7 @@ struct SportsView: View {
                 ScrollView{
                     //we would use a ForEach statement here with a json file to load more data in
                     NavigationLink {
-                        TestView()
+                        ActivityView(sport: "Football")
                     } label: {
                         HStack{
                             Image(systemName: "football")
@@ -35,7 +35,7 @@ struct SportsView: View {
                     .padding(.horizontal)
                     
                     NavigationLink {
-                        TestView()
+                        ActivityView(sport: "Basketball")
                     } label: {
                         HStack{
                             Image(systemName: "basketball")
@@ -56,7 +56,7 @@ struct SportsView: View {
                     .padding(.horizontal)
                     
                     NavigationLink {
-                        TestView()
+                        ActivityView(sport: "Ping Pong")
                     } label: {
                         HStack{
                             Image(systemName: "figure.table.tennis")
@@ -77,7 +77,7 @@ struct SportsView: View {
                     .padding(.horizontal)
                     
                     NavigationLink {
-                        TestView()
+                        ActivityView(sport: "Soccerball")
                     } label: {
                         HStack{
                             Image(systemName: "soccerball")
@@ -98,7 +98,7 @@ struct SportsView: View {
                     .padding(.horizontal)
                     
                     NavigationLink {
-                        TestView()
+                        ActivityView(sport: "Volleyball")
                     } label: {
                         HStack{
                             Image(systemName: "volleyball")
