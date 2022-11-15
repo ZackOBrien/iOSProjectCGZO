@@ -19,6 +19,7 @@
 		E2C6C3B2292322FE004BD2A4 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C3B1292322FE004BD2A4 /* GameView.swift */; };
 		E2C6C3B42923231E004BD2A4 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C3B32923231E004BD2A4 /* CalendarView.swift */; };
 		E2C6C3B629232359004BD2A4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C3B529232359004BD2A4 /* HomeView.swift */; };
+		E2C6C3B82923269B004BD2A4 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C3B72923269B004BD2A4 /* ActivityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		E2C6C3B1292322FE004BD2A4 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		E2C6C3B32923231E004BD2A4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		E2C6C3B529232359004BD2A4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E2C6C3B72923269B004BD2A4 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				E2C6C39929232033004BD2A4 /* WolverineSportApp.swift */,
 				E2C6C39B29232033004BD2A4 /* ContentView.swift */,
+				E2C6C3B72923269B004BD2A4 /* ActivityView.swift */,
 				E2C6C3B529232359004BD2A4 /* HomeView.swift */,
 				E2C6C3A729232116004BD2A4 /* TeamView.swift */,
 				E2C6C3A929232154004BD2A4 /* SportsView.swift */,
@@ -161,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2C6C3B82923269B004BD2A4 /* ActivityView.swift in Sources */,
 				E2C6C3B0292322CB004BD2A4 /* MapView.swift in Sources */,
 				E2C6C39C29232033004BD2A4 /* ContentView.swift in Sources */,
 				E2C6C3AC2923223A004BD2A4 /* TestView.swift in Sources */,
