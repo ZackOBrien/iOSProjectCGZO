@@ -68,7 +68,7 @@ struct HomeView: View {
                             .resizable()
                             .frame(width: 25, height: 25)
                             .foregroundColor(.red)
-                        Text("C League Volleyball Games Today!")
+                        Text("Zack is volleyball MVP!")
                     }.frame(maxWidth: .infinity, alignment: .leading)
                 }
                 .frame(width: 375, height: 200)
@@ -81,10 +81,19 @@ struct HomeView: View {
                     Text("Upcomming games:")
                         .font(.title)
                         .frame(maxWidth: .infinity, alignment: .leading)
-                    Image(systemName: "square")
-                        .resizable()
-                        .frame(width: 100, height: 100)
-                        .foregroundColor(.red)
+                    HStack{
+                        Text("Team 1 vs Team 2 A League Basketball")
+                    }.frame(maxWidth: .infinity, alignment: .leading)
+                    HStack{
+                        Text("Team 6 vs Team 2 B League Soccer")
+                    }.frame(maxWidth: .infinity, alignment: .leading)
+                    HStack{
+                        Text("Team 4 vs Team 5 C League Basketball")
+                    }.frame(maxWidth: .infinity, alignment: .leading)
+//                    Image(systemName: "square")
+//                        .resizable()
+//                        .frame(width: 100, height: 100)
+//                        .foregroundColor(.red)
                 }
                 .frame(width: 375, height: 200)
                 .background(Color.white)
