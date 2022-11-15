@@ -29,7 +29,7 @@ struct HomeView: View {
                         Text("Your Next Game:")
                             .font(.title)
                             .underline()
-                            .frame(width: 375, height: 12, alignment: .leading)
+                            .frame(maxWidth: .infinity, alignment: .leading)
                         Text("\(formattedString)")
                             .font(.title)
                             .onReceive(countDown){ _ in //this is the count down clock
@@ -48,6 +48,7 @@ struct HomeView: View {
                 VStack{
                     Text("Announcements:")
                         .font(.title)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     Image(systemName: "square")
                         .resizable()
                         .frame(width: 100, height: 100)
@@ -62,6 +63,7 @@ struct HomeView: View {
                 VStack{
                     Text("Upcomming games:")
                         .font(.title)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     Image(systemName: "square")
                         .resizable()
                         .frame(width: 100, height: 100)
