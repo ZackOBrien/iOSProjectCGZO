@@ -52,7 +52,7 @@ struct ActivityView: View {
                 
                 Text("A-League Teams:")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .bold()
+                    //.bold()
                     .padding(.leading)
                 
                 ScrollView(.horizontal) {
@@ -81,7 +81,7 @@ struct ActivityView: View {
                 
                 Text("B-League Teams:")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .bold()
+                    //.bold()
                     .padding(.leading)
                 ScrollView(.horizontal) {
                     HStack(spacing: 20) {
@@ -109,7 +109,7 @@ struct ActivityView: View {
                 
                 Text("C-League Teams:")
                     .frame(maxWidth: .infinity, alignment: .leading)
-                    .bold()
+                    //.bold()
                     .padding(.leading)
                 ScrollView(.horizontal) {
                     HStack(spacing: 20) {
