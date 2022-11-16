@@ -10,7 +10,7 @@ import SwiftUI
 struct ActivityView: View {
     @State var sport = ""
     var body: some View {
-        NavigationView {
+        //NavigationView {
             VStack{
                 HStack{
                     Image(systemName: "\(sport.lowercased())")
@@ -107,7 +107,7 @@ struct ActivityView: View {
                 }
                 .padding()
             }
-        }
+        //}//
     }
 }
 
