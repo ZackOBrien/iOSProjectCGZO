@@ -1,24 +1,22 @@
-{
-    "number_of_sports" : 5,
-    "sports_array": [{
+[
+    {
         "name" : "Football",
         "image" : "football"
-        },
-        {
-            "name" : "Basketball",
-            "image" : "basketball"
-        },
-        {
-            "name" : "Ping Pong",
-            "image" : "figure.table.tennis"
-        },
-        {
-            "name" : "Soccerball",
-            "image" : "soccerball"
-        },
-        {
-            "name" : "Volleyball",
-            "image" : "volleyball"
-        }
-    ]
-}
+    },
+    {
+        "name" : "Basketball",
+        "image" : "basketball"
+    },
+    {
+        "name" : "Ping Pong",
+        "image" : "figure.table.tennis"
+    },
+    {
+        "name" : "Soccerball",
+        "image" : "soccerball"
+    },
+    {
+        "name" : "Volleyball",
+        "image" : "volleyball"
+    }
+]

@@ -7,46 +7,50 @@
 
 import Foundation
 
+
 class ViewModel : ObservableObject{
+    
     @Published var sports = [Sport]()
     
+    // construction method
+    // called once a new instance is created
+    // set up code
     init(){
-        readJSONFile()
+        readJSON()
+        
     }
     
-    func readJSONFile(){
-        // 1. pathString
+    func readJSON(){
+        //1. get the path to the json file with the app bundle
         let pathString = Bundle.main.path(forResource: "sports", ofType: "json")
         
         if let path = pathString{
-            
-            // 2. URL
+            //2. create a URL Object
             let url = URL(fileURLWithPath: path)
-            // 3. Data object
+            
             do{
+                //3. create a data object with the URL File
                 let data = try Data(contentsOf: url)
-                // 4. json decoder
-                let jsonDecoder = JSONDecoder()
                 
-                // 5. get json data
-                let jsonData = try jsonDecoder.decode(SportAll.self, from: data)
+                //4. create a JSON decoder
+                let json_dectetor = JSONDecoder()
+                 
+                //5. extract the models from the json file
+                var json_data = try json_dectetor.decode([Sport].self, from: data)
                 
-                for i in 0..<jsonData.sports_array.count {
-                    jsonData.sports_array[i].id = UUID()
+                for index in 0..<json_data.count {
+                    json_data[index].id = UUID()
                 }
                 
-                sports = jsonData.sports_array
-                
-                
-            } catch{
-                print("slayyyy ")
-                
+                sports = json_data
+            }catch{
+                print(error)
             }
-            
-        }else{
-            
         }
-        
+    }
+    
+    func addRecipe(r: Sport){
+        sports.append(r)
     }
 }
 

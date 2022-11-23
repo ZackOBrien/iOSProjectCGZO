@@ -7,15 +7,11 @@
 
 import Foundation
 
-class SportAll: Decodable{
-    var number_of_sports = 0
-    var sports_array = [Sport]()
-}
-
-class Sport: Identifiable, Decodable{
+//struct Recipe : Identifiable{
+struct Sport : Decodable, Identifiable{
     
-    var id: UUID?
-    var name: String = ""
-    var image: String = ""
-    
+    var id : UUID? //= UUID() // Unique identifier
+    var name = ""
+    var image = ""
+        
 }
