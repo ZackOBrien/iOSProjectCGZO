@@ -8,18 +8,20 @@
 import SwiftUI
 
 struct ActivityView: View {
-    @State var sport = ""
+    @EnvironmentObject var VM: ViewModel
+    var sport = Sport()
+    //@State var sport = ""
     var body: some View {
         ScrollView {
             VStack{
                 HStack{
-                    Image(systemName: "\(sport.lowercased())")
+                    Image(systemName: "\(sport.image)")
                         .resizable()
                         .frame(width: 125, height: 125)
                         .foregroundColor(.red)
                         .padding(.trailing)
                     VStack{
-                        Text("IM \(sport)")
+                        Text("IM \(sport.name)")
                             .font(.title)
                             .bold()
                         Text("Fall 2022")
@@ -139,8 +141,8 @@ struct ActivityView: View {
     }
 }
 
-struct ActivityView_Previews: PreviewProvider {
-    static var previews: some View {
-        ActivityView(sport: "Basketball")
-    }
-}
+//struct ActivityView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ActivityView(sport: Sport())
+//    }
+//}
