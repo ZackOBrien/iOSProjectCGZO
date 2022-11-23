@@ -60,7 +60,7 @@ struct ActivityView: View {
                     HStack(spacing: 20) {
                         ForEach(sport.a_league) {s in
                             NavigationLink{
-                                TeamView()
+                                TeamView(team: s)
                             } label: {
                                 HStack{
                                     Image(systemName: "\(s.image)")
@@ -88,7 +88,7 @@ struct ActivityView: View {
                     HStack(spacing: 20) {
                         ForEach(sport.b_league) {s in
                             NavigationLink{
-                                TeamView()
+                                TeamView(team: s)
                             } label: {
                                 HStack{
                                     Image(systemName: "\(s.image)")
@@ -116,7 +116,7 @@ struct ActivityView: View {
                     HStack(spacing: 20) {
                         ForEach(sport.c_league) {s in
                             NavigationLink{
-                                TeamView()
+                                TeamView(team: s)
                             } label: {
                                 HStack{
                                     Image(systemName: "\(s.image)")
