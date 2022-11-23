@@ -13,6 +13,7 @@ struct Sport : Decodable, Identifiable{
     var id : UUID? //= UUID() // Unique identifier
     var name = ""
     var image = ""
-    //var a_league = [Team]()
-        
+    var a_league = [Team]()
+    var b_league = [Team]()
+    var c_league = [Team]()
 }

@@ -9,7 +9,7 @@ import Foundation
 
 struct Team : Decodable, Identifiable{
     
-    var id : UUID? //= UUID() // Unique identifier
+    var id = 0 //= UUID() // Unique identifier
     var name = ""
     var image = ""
     var league = ""

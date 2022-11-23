@@ -1,22 +1,502 @@
 [
     {
         "name" : "Football",
-        "image" : "football"
+        "image" : "football",
+        "a_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "b_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "c_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ]
     },
     {
         "name" : "Basketball",
-        "image" : "basketball"
+        "image" : "basketball",
+        "a_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "b_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "c_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ]
     },
     {
         "name" : "Ping Pong",
-        "image" : "figure.table.tennis"
+        "image" : "figure.table.tennis",
+        "a_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "b_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "c_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ]
     },
     {
         "name" : "Soccerball",
-        "image" : "soccerball"
+        "image" : "soccerball",
+        "a_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "b_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "c_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ]
     },
     {
         "name" : "Volleyball",
-        "image" : "volleyball"
+        "image" : "volleyball",
+        "a_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "b_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ],
+        "c_league":[
+            {
+                "id": 1,
+                "name":"Happy Friends",
+                "image":"circle",
+                "league":"A-League",
+                "win":12,
+                "tie":0,
+                "loss":1,
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+            },
+            {
+                "id": 2,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            },
+            {
+                "id": 3,
+                "name":"Defaults",
+                "image":"circle",
+                "league":"A-League",
+                "win":3,
+                "tie":3,
+                "loss":3,
+                "members":["First Last(Captain)", "First Last", "First Last"]
+            }
+        ]
     }
 ]

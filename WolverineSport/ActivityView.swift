@@ -56,19 +56,18 @@ struct ActivityView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     //.bold()
                     .padding(.leading)
-                
                 ScrollView(.horizontal) {
                     HStack(spacing: 20) {
-                        ForEach(0..<10) {_ in
+                        ForEach(sport.a_league) {s in
                             NavigationLink{
                                 TeamView()
                             } label: {
                                 HStack{
-                                    Image(systemName: "circle")
+                                    Image(systemName: "\(s.image)")
                                         .resizable()
                                         .frame(width: 25, height: 25)
                                         .foregroundColor(.white)
-                                    Text("Team")
+                                    Text("\(s.name)")
                                         .font(.title2)
                                 }
                                 .foregroundColor(.white)
@@ -87,16 +86,16 @@ struct ActivityView: View {
                     .padding(.leading)
                 ScrollView(.horizontal) {
                     HStack(spacing: 20) {
-                        ForEach(0..<10) {_ in
+                        ForEach(sport.b_league) {s in
                             NavigationLink{
                                 TeamView()
                             } label: {
                                 HStack{
-                                    Image(systemName: "circle")
+                                    Image(systemName: "\(s.image)")
                                         .resizable()
                                         .frame(width: 25, height: 25)
                                         .foregroundColor(.white)
-                                    Text("Team")
+                                    Text("\(s.name)")
                                         .font(.title2)
                                 }
                                 .foregroundColor(.white)
@@ -115,16 +114,16 @@ struct ActivityView: View {
                     .padding(.leading)
                 ScrollView(.horizontal) {
                     HStack(spacing: 20) {
-                        ForEach(0..<10) {_ in
+                        ForEach(sport.c_league) {s in
                             NavigationLink{
                                 TeamView()
                             } label: {
                                 HStack{
-                                    Image(systemName: "circle")
+                                    Image(systemName: "\(s.image)")
                                         .resizable()
                                         .frame(width: 25, height: 25)
                                         .foregroundColor(.white)
-                                    Text("Team")
+                                    Text("\(s.name)")
                                         .font(.title2)
                                 }
                                 .foregroundColor(.white)
