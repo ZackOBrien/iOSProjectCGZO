@@ -11,17 +11,17 @@
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews", "Riley Truit", "Grace Barnes", "Thomas St John", "Kat Shi"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Team Team",
                 "image":"circle",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Felecia Grossier (Captain)", "Marc Barmby","Tamiko Forsbey", "Stan Wedmore", "Bette-ann Kellough", "Mufinella Rispine", "Leigh Hodinton", "Ramonda Tomblings", "Earl MacKessock", "Cece Kidsley"]
             },
             {
                 "id": 3,
@@ -31,7 +31,7 @@
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Jaci Banda (Captain)","Austin Cordova","Abigayle Mack","Janell Luciano","Moses Mosier","Pablo Marshall","Kristopher McCormick","April Kang","Lester Bradshaw","Keana Eason"]
             }
         ],
         "b_league":[
@@ -39,63 +39,63 @@
                 "id": 1,
                 "name":"Happy Friends",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Abbigail Gable (Captain)","Darrian Blakely","Regina Hickey","Lee Eads","Chancellor Looney","Dan Peyton","Ryleigh Ziegler","Kolby Chaney","Eve McLeod","Mindy Urbina"]
             },
             {
                 "id": 2,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Dejuan Shepherd (Captain)","Keyla Mcnabb","Jasmin Maki","Conner Knutson","Ramsey Newkirk","Lela Quick","Tahj Hamby","Byron Espino","Kassandra Crocker","Victor Shanks"]
             },
             {
                 "id": 3,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Jayda Paxton (Captain)","Dakotah Vazquez","Ryland Villa","Cailin Lomax","Jensen Fitzgerald","Alex Read","Jailyn Starling","Stetson Leary","Arman Palacios","Herman Childers",]
             }
         ],
         "c_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Hawks",
                 "image":"circle",
-                "league":"A-League",
-                "win":12,
-                "tie":0,
+                "league":"C-League",
+                "win":11,
+                "tie":1,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Ryland Bernard (Captain)","Kai Dell","Jennah Nowak","Asa Lindley","Colleen Christiansen","Luc Castle","Chandler Tucker","Christion Velasco","Lyndsey Hacker","Olivia Tyler"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Elephants",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
-                "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "loss":5,
+                "members":["Itzel Sheffield (Captain)","Madelyn Castellano","Cruz Tolbert","Bree Hanson","Charlene Bader","Blayne Lightfoot","Conrad Dickens","Selena Aaron","Kaylee Lockwood","Gwendolyn Jacoby"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Clams",
                 "image":"circle",
-                "league":"A-League",
-                "win":3,
+                "league":"C-League",
+                "win":5,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Toby Dowling (Captain)","Jairo Brackett","Raven Wolford","Theron Apodaca","Donnell Hubert","Darrius Kuykendall","Treasure Eller","Katia Caruso","Rylie Glover","Donna Peter"]
             }
         ]
     },
@@ -108,62 +108,62 @@
                 "name":"Happy Friends",
                 "image":"circle",
                 "league":"A-League",
-                "win":12,
+                "win":10,
                 "tie":0,
-                "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "loss":2,
+                "members":["Nathalia Boyles (Captain)","Jaylin Gagne","Kenia Trevino","Kendal Dowdy","Travion Gallardo","Diego Richard","Carlos Tully","Savannah Thomason","Asa Lemons","Geoffrey Boyce"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Hoppers",
                 "image":"circle",
                 "league":"A-League",
-                "win":3,
+                "win":9,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Josefina Dodson (Captain)","Ryland Harper","Heaven Gomez","Katelynn Derosa","Chyna Newsome","Dontae Leslie","Jewel Lucero","Yvonne Byrnes","Heidi Hogan","Everett Beck"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Tigers",
                 "image":"circle",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Yamilet Bruns (Captain)","Haden Rubio","Cathy Dobson","Ronnie Rosales","Casandra Mcmillen","Kellen Schwab","Victor Groves","Ximena Casillas","Tionna Linton","Beatriz James"]
             }
         ],
         "b_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Sharks",
                 "image":"circle",
-                "league":"A-League",
-                "win":12,
+                "league":"B-League",
+                "win":1,
                 "tie":0,
-                "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "loss":12,
+                "members":[]
             },
             {
                 "id": 2,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             },
             {
                 "id": 3,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             }
         ],
         "c_league":[
@@ -171,31 +171,31 @@
                 "id": 1,
                 "name":"Happy Friends",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":[]
             },
             {
                 "id": 2,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             },
             {
                 "id": 3,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             }
         ]
     },
@@ -205,97 +205,97 @@
         "a_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Bald Guy",
                 "image":"circle",
                 "league":"A-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Zack O'Brien"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Bad",
                 "image":"circle",
                 "league":"A-League",
-                "win":3,
-                "tie":3,
-                "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "win":0,
+                "tie":0,
+                "loss":15,
+                "members":["Kevin Hemby"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Coding Guy",
                 "image":"circle",
                 "league":"A-League",
-                "win":3,
+                "win":10,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Sean Matthews"]
             }
         ],
         "b_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Tall",
                 "image":"circle",
-                "league":"A-League",
-                "win":12,
+                "league":"B-League",
+                "win":1,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Chris Gerello"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Team 3",
                 "image":"circle",
-                "league":"A-League",
-                "win":3,
-                "tie":3,
-                "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "league":"B-League",
+                "win":0,
+                "tie":0,
+                "loss":10,
+                "members":["Amy Cunningham"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Barnes",
                 "image":"circle",
-                "league":"A-League",
-                "win":3,
+                "league":"B-League",
+                "win":10,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Grace Barnes"]
             }
         ],
         "c_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Tall Man",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Dean O'Toole"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Zack",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Zack O'Brien"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Afro",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Sean Matthews"]
             }
         ]
     },
@@ -305,87 +305,87 @@
         "a_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Strikers",
                 "image":"circle",
                 "league":"A-League",
-                "win":12,
-                "tie":0,
+                "win":10,
+                "tie":2,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Junior Henley (Captain)","Corinne Marino","Sariah Volk","Brook Schwarz","Kelvin Petty","Chase Peck","Elaine Kirkland","Dominique Mortensen","Ambria Alvarez","Carol Sloan"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Saves Alot",
                 "image":"circle",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Chandler Vitale (Captain)","Johnny Coffman","Keaton Grier","Karson Augustine","Adrianna Montes","Juanita Cadena","Drake Coronado","Tyreke Kirsch","Ervin Mason","Kaia Coombs"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Eagles",
                 "image":"circle",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Robin Fleming (Captain)","Dianna Starr","Darrien Vargas","Floyd Ko","Rylie Sharp","Ronnie Gauthier","Stevie McKenna","Shae Beckham","Dorien Palmer","Katarina Hemphill"]
             }
         ],
         "b_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Slide Tackles",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":["Dominic Matlock (Captain)","Jacob Proctor","Jayson Coley","Hailee Rubin","Mackenzie Masters","Haden Goodwin","Layton Clinton","Randall Herrick","Tia Barone","Ava Jensen"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"It's Soccer",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
-                "tie":3,
+                "tie":5,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Tracy Ashcraft (Captain)","Lisette Lorenz","Tea Steffen","Irene Starnes","Miles Godinez","Santana Wheatley","Jazlynn Rafferty","Mallory Crenshaw","Jordyn Tong","Jonathon Redding"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Football",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
-                "tie":3,
+                "tie":5,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":["Aliah Petersen (Captain)","Amina Bryson","Kendall Jeffery","Yasmine Rhoads","Fletcher Gillette","Colby Rao","Jajuan Mace","Terrence Lehmann","Dajah McNeill","Linnea Carey"]
             }
         ],
         "c_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"FC Barcelona",
                 "image":"circle",
-                "league":"A-League",
-                "win":12,
+                "league":"C-League",
+                "win":6,
                 "tie":0,
-                "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "loss":6,
+                "members":["Jada Healey (Captain)","Augustine Elkins","Ryland McDowell","Gissell Richardson","Mckayla Bateman","Danika Kumar","Ayana Huggins","Conor Finn","Kolton Lorenzo","Jodi Wall"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Bayern Munich",
                 "image":"circle",
-                "league":"A-League",
-                "win":3,
+                "league":"C-League",
+                "win":0,
                 "tie":3,
-                "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "loss":6,
+                "members":[]
             },
             {
                 "id": 3,
@@ -395,7 +395,7 @@
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             }
         ]
     },
@@ -411,7 +411,7 @@
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":[]
             },
             {
                 "id": 2,
@@ -421,7 +421,7 @@
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             },
             {
                 "id": 3,
@@ -431,7 +431,7 @@
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             }
         ],
         "b_league":[
@@ -443,7 +443,7 @@
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":[]
             },
             {
                 "id": 2,
@@ -453,7 +453,7 @@
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             },
             {
                 "id": 3,
@@ -463,7 +463,7 @@
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             }
         ],
         "c_league":[
@@ -471,31 +471,31 @@
                 "id": 1,
                 "name":"Happy Friends",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":["Chris Gerello(Captain)", "Zack O'Brien", "Sean Matthews"]
+                "members":[]
             },
             {
                 "id": 2,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             },
             {
                 "id": 3,
                 "name":"Defaults",
                 "image":"circle",
-                "league":"A-League",
+                "league":"C-League",
                 "win":3,
                 "tie":3,
                 "loss":3,
-                "members":["First Last(Captain)", "First Last", "First Last"]
+                "members":[]
             }
         ]
     }
