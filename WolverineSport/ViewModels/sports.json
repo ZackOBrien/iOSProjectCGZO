@@ -25,7 +25,7 @@
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Texans",
                 "image":"circle",
                 "league":"A-League",
                 "win":3,
@@ -37,7 +37,7 @@
         "b_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Cougars",
                 "image":"circle",
                 "league":"B-League",
                 "win":12,
@@ -47,7 +47,7 @@
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Falcons",
                 "image":"circle",
                 "league":"B-League",
                 "win":3,
@@ -57,7 +57,7 @@
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Ravens",
                 "image":"circle",
                 "league":"B-League",
                 "win":3,
@@ -105,7 +105,7 @@
         "a_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Oranges",
                 "image":"circle",
                 "league":"A-League",
                 "win":10,
@@ -143,59 +143,59 @@
                 "win":1,
                 "tie":0,
                 "loss":12,
-                "members":[]
+                "members":["Jacoby Abreu (Captain)","Blanca Felix","Fletcher Landis","Sophia Moreau","Camryn Glaser","Betsy Hein","Bridger Ly","Stacey Christensen","Jeffrey Gary","Jessi Dube"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Believers",
                 "image":"circle",
                 "league":"B-League",
-                "win":3,
+                "win":7,
                 "tie":3,
                 "loss":3,
-                "members":[]
+                "members":["Karsyn Andrus (Captain)","Deion Schmid","Aliza Clough","Tomas Riggins","Cristian Swift","Kristina Caldwell","Lauryn Bello","Tianna Kiefer","Dakota Burton","Madelin Latham"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Canada",
                 "image":"circle",
                 "league":"B-League",
-                "win":3,
+                "win":4,
                 "tie":3,
-                "loss":3,
-                "members":[]
+                "loss":6,
+                "members":["Rochelle Kirk (Captain)","Margarita Leary","Derrick Mackenzie","Giancarlo Gerber","Priscila Casas","Kelly Medley","Kourtney King","Drew Montoya","Moses Drury","Kenya Munson"]
             }
         ],
         "c_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Tomcats",
                 "image":"circle",
                 "league":"C-League",
-                "win":12,
+                "win":5,
                 "tie":0,
-                "loss":1,
-                "members":[]
+                "loss":5,
+                "members":["Alannah Wilcox (Captain)","Clifford Kemp","Tanisha Millan","Darrian Wiggins","Brent Pendleton","Fallon Santos","Donnie Bagwell","Cedrick Forbes","Guadalupe Callaway","Lora Crum"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Turkies",
                 "image":"circle",
                 "league":"C-League",
-                "win":3,
-                "tie":3,
-                "loss":3,
-                "members":[]
+                "win":2,
+                "tie":2,
+                "loss":6,
+                "members":["Frida Harter (Captain)","Ignacio Duarte","Jaylon Shaver","Holden Bird","Magaly Leahy","Armani Arteaga","Anai Reinhart","Triston Willey","Brian Chamberlain","Samson Griggs"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Goats",
                 "image":"circle",
                 "league":"C-League",
-                "win":3,
-                "tie":3,
+                "win":5,
+                "tie":2,
                 "loss":3,
-                "members":[]
+                "members":["Deonte Sheets (Captain)","Brandyn Napier","Jayme Stacy","Caden Muller","Rylee Hollins","Jamie Wren","Bennett Krueger","Amelia Rooney","Lacie Hammond","Brandy Babb"]
             }
         ]
     },
@@ -385,17 +385,17 @@
                 "win":0,
                 "tie":3,
                 "loss":6,
-                "members":[]
+                "members":["Rashawn Rivers (Captain)","Stuart Phelps","Carrington Gough","Xavier Stafford","Cayden Crane","Elvis Godwin","Tyrek Ebert","Adonis Karr","Ella Adamson","June Barrett"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Eintracht Frankfurt",
                 "image":"circle",
-                "league":"A-League",
-                "win":3,
+                "league":"C-League",
+                "win":10,
                 "tie":3,
-                "loss":3,
-                "members":[]
+                "loss":0,
+                "members":["Wilfredo Register","Dawn Richey","Austyn Mcneely","Kiarra Vines","Krysta Hutson","Lilianna Burge","Chloe McCloskey","Robin Frederick","Leland Wagoner","Gordon Guajardo"]
             }
         ]
     },
@@ -405,97 +405,97 @@
         "a_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Spike",
                 "image":"circle",
                 "league":"A-League",
                 "win":12,
                 "tie":0,
                 "loss":1,
-                "members":[]
+                "members":["Ariel Girard (Captain)","Leyla Kern","Yusuf Kinsey","Mika Steinberg","Mikel Engel","Mariela Pinto","Karla Bess","Hollie Calloway","Anissa Chen","Maddison Tran"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Saves",
                 "image":"circle",
                 "league":"A-League",
                 "win":3,
-                "tie":3,
+                "tie":0,
                 "loss":3,
-                "members":[]
+                "members":["Rashawn Rivers (Captain)","Stuart Phelps","Carrington Gough","Xavier Stafford","Cayden Crane","Elvis Godwin","Tyrek Ebert","Adonis Karr","Ella Adamson","June Barrett"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Deers",
                 "image":"circle",
                 "league":"A-League",
-                "win":3,
-                "tie":3,
+                "win":5,
+                "tie":0,
                 "loss":3,
-                "members":[]
+                "members":["Toby Dowling (Captain)","Jairo Brackett","Raven Wolford","Theron Apodaca","Donnell Hubert","Darrius Kuykendall","Treasure Eller","Katia Caruso","Rylie Glover","Donna Peter"]
             }
         ],
         "b_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Lions",
                 "image":"circle",
-                "league":"A-League",
-                "win":12,
+                "league":"B-League",
+                "win":6,
                 "tie":0,
-                "loss":1,
-                "members":[]
+                "loss":6,
+                "members":["Mara Keck (Captain)","Kelly Austin","Corinne Hwang","Zaire Moon","Fernando Soares","Tevin Daniels","Draven Graber","Juwan Hicks","Ivonne Whalen","Tiara Crow"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Eagles",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
-                "tie":3,
+                "tie":0,
                 "loss":3,
-                "members":[]
+                "members":["Joan Antonio (Captain)","Cain Devlin","Holland Oakes","Lydia Brice","Leighton Dooley","Janeth Venable","Nicklaus Southard","Turner Jay","Jacquez Melendez","Salvatore Manning",]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Bulldogs",
                 "image":"circle",
-                "league":"A-League",
+                "league":"B-League",
                 "win":3,
-                "tie":3,
+                "tie":0,
                 "loss":3,
-                "members":[]
+                "members":["Messiah Ling (Captain)","Shane Uribe","Chris Noll","Hannah Anthony","Robert Cason","Zane Dube","Moriah Peace","Kalie Boucher","Elexis Mayhew","Jaylynn Sandlin"]
             }
         ],
         "c_league":[
             {
                 "id": 1,
-                "name":"Happy Friends",
+                "name":"Golden Tornadoes",
                 "image":"circle",
                 "league":"C-League",
-                "win":12,
+                "win":1,
                 "tie":0,
-                "loss":1,
-                "members":[]
+                "loss":6,
+                "members":["Gannon Poe","Jarett Watkins","Moshe Hardman","Frank Fernandes","River Guidry","Allen Munn","Kevon Redding","Dorothy Mangum","Ivana Kent","Jerrod Swann"]
             },
             {
                 "id": 2,
-                "name":"Defaults",
+                "name":"Wolverines",
                 "image":"circle",
                 "league":"C-League",
-                "win":3,
-                "tie":3,
+                "win":5,
+                "tie":0,
                 "loss":3,
-                "members":[]
+                "members":["Jamya Frantz (Captain)","Micaela McCormack","Mina Coates","Kenneth Aiello","Caden Rust","Makenzie Dang","Kenton Story","Nolan Kowalski","Trevor Juarez","Kaliyah Brooks"]
             },
             {
                 "id": 3,
-                "name":"Defaults",
+                "name":"Mustangs",
                 "image":"circle",
                 "league":"C-League",
                 "win":3,
-                "tie":3,
-                "loss":3,
-                "members":[]
+                "tie":0,
+                "loss":5,
+                "members":["Kyra Trujillo (Captain)","Eboni Musser","Theron Quinones","Anders Mackenzie","Chassidy Moseley","Simeon Benavidez","Rocio Dyer","Jalyn Daniels","Javonte Womack","Katelyn Koch"]
             }
         ]
     }
