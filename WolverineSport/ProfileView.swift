@@ -9,9 +9,10 @@ import SwiftUI
 
 struct ProfileView: View {
     var body: some View {
-        NavigationView{
-        VStack{
-            HStack{
+        NavigationView {
+            VStack {
+                Spacer()
+                HStack {
                 Image(systemName: "person.crop.circle.fill")
                     .resizable()
                     .frame(width: 85, height: 85)
@@ -26,17 +27,20 @@ struct ProfileView: View {
                     Text("Number of Teams: 10")
                 }
             }
-            Spacer()
+//            Spacer()
             Text("Biography:")
                 .font(.title2)
                 .bold()
                 .frame(maxWidth:.infinity, alignment: .leading)
+                .padding(.bottom, 2)
             Text("Hello I am Chris Gerello, I am a senior Computer Science major. I enjoy to play in intermural sports with my friends and having this app has sure streamlined the process of signing-up, finding a team, and playing games.")
                 .foregroundColor(.black)
+                .padding(.bottom)
             Text("Your Teams:")
                 .font(.title2)
                 .bold()
                 .frame(maxWidth:.infinity, alignment: .leading)
+            
             
             ScrollView(.horizontal) {
                 HStack(spacing: 20) {
@@ -61,11 +65,15 @@ struct ProfileView: View {
                 }
             }
             Spacer()
-            Spacer()
-            Spacer()
-            Spacer()
         }
+        .padding(.horizontal)
         }
+    }
+}
+
+struct ProfileHeader: View {
+    var body: some View {
+        Text("hello")
     }
 }
 

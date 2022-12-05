@@ -29,8 +29,8 @@ struct ActivityView: View {
                 }
 //                .padding()
                 HStack{
-                    Button{
-                        print("tried to add team")
+                    NavigationLink {
+                        CreateView()
                     } label: {
                         Text("Create a Team")
                             .fontWeight(.semibold)
@@ -39,7 +39,6 @@ struct ActivityView: View {
                             .background(Color.green)
                             .cornerRadius(40)
                     }
-                    
                     Button{
                         print("tried to join team")
                     } label: {

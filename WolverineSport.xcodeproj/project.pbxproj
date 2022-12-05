@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E20E8A68292DC087005D09C9 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E8A67292DC087005D09C9 /* Sport.swift */; };
+		E20E8A6A292DC09D005D09C9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E8A69292DC09D005D09C9 /* ViewModel.swift */; };
+		E29042F6293C55FB00598ABE /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29042F5293C55FB00598ABE /* CreateView.swift */; };
+		E2B5C64F292E56E0003C040A /* sports.json in Resources */ = {isa = PBXBuildFile; fileRef = E2B5C64E292E56E0003C040A /* sports.json */; };
+		E2B5C651292E5B50003C040A /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B5C650292E5B50003C040A /* Team.swift */; };
 		E2C6C39A29232033004BD2A4 /* WolverineSportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C39929232033004BD2A4 /* WolverineSportApp.swift */; };
 		E2C6C39C29232033004BD2A4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C6C39B29232033004BD2A4 /* ContentView.swift */; };
 		E2C6C39E29232035004BD2A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C6C39D29232035004BD2A4 /* Assets.xcassets */; };
@@ -23,6 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E20E8A67292DC087005D09C9 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
+		E20E8A69292DC09D005D09C9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E29042F5293C55FB00598ABE /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
+		E2B5C64E292E56E0003C040A /* sports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = sports.json; path = ViewModels/sports.json; sourceTree = "<group>"; };
+		E2B5C650292E5B50003C040A /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		E2C6C39629232033004BD2A4 /* WolverineSport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolverineSport.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C6C39929232033004BD2A4 /* WolverineSportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolverineSportApp.swift; sourceTree = "<group>"; };
 		E2C6C39B29232033004BD2A4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +60,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E20E8A65292DC032005D09C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E20E8A67292DC087005D09C9 /* Sport.swift */,
+				E2B5C650292E5B50003C040A /* Team.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E20E8A66292DC043005D09C9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E20E8A69292DC09D005D09C9 /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		E2C6C38D29232033004BD2A4 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +96,9 @@
 		E2C6C39829232033004BD2A4 /* WolverineSport */ = {
 			isa = PBXGroup;
 			children = (
+				E2B5C64E292E56E0003C040A /* sports.json */,
+				E20E8A66292DC043005D09C9 /* ViewModels */,
+				E20E8A65292DC032005D09C9 /* Models */,
 				E2C6C39929232033004BD2A4 /* WolverineSportApp.swift */,
 				E2C6C39B29232033004BD2A4 /* ContentView.swift */,
 				E2C6C3B72923269B004BD2A4 /* ActivityView.swift */,
@@ -80,6 +110,7 @@
 				E2C6C3AD292322AD004BD2A4 /* ProfileView.swift */,
 				E2C6C3AF292322CB004BD2A4 /* MapView.swift */,
 				E2C6C3AB2923223A004BD2A4 /* TestView.swift */,
+				E29042F5293C55FB00598ABE /* CreateView.swift */,
 				E2C6C39D29232035004BD2A4 /* Assets.xcassets */,
 				E2C6C39F29232035004BD2A4 /* Preview Content */,
 			);
@@ -154,6 +185,7 @@
 			files = (
 				E2C6C3A129232035004BD2A4 /* Preview Assets.xcassets in Resources */,
 				E2C6C39E29232035004BD2A4 /* Assets.xcassets in Resources */,
+				E2B5C64F292E56E0003C040A /* sports.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,14 +198,18 @@
 			files = (
 				E2C6C3B82923269B004BD2A4 /* ActivityView.swift in Sources */,
 				E2C6C3B0292322CB004BD2A4 /* MapView.swift in Sources */,
+				E2B5C651292E5B50003C040A /* Team.swift in Sources */,
 				E2C6C39C29232033004BD2A4 /* ContentView.swift in Sources */,
+				E29042F6293C55FB00598ABE /* CreateView.swift in Sources */,
 				E2C6C3AC2923223A004BD2A4 /* TestView.swift in Sources */,
 				E2C6C3B629232359004BD2A4 /* HomeView.swift in Sources */,
 				E2C6C3AA29232154004BD2A4 /* SportsView.swift in Sources */,
+				E20E8A6A292DC09D005D09C9 /* ViewModel.swift in Sources */,
 				E2C6C39A29232033004BD2A4 /* WolverineSportApp.swift in Sources */,
 				E2C6C3B42923231E004BD2A4 /* CalendarView.swift in Sources */,
 				E2C6C3AE292322AD004BD2A4 /* ProfileView.swift in Sources */,
 				E2C6C3B2292322FE004BD2A4 /* GameView.swift in Sources */,
+				E20E8A68292DC087005D09C9 /* Sport.swift in Sources */,
 				E2C6C3A829232116004BD2A4 /* TeamView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WolverineSport/Preview Content\"";
+				DEVELOPMENT_TEAM = WQ9MD4W93J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -332,6 +369,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WolverineSport/Preview Content\"";
+				DEVELOPMENT_TEAM = WQ9MD4W93J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
