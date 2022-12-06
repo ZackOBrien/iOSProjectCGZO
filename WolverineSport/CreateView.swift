@@ -15,11 +15,22 @@ struct CreateView: View {
     @State var league = ""
     @State var name = ""
     @State var image = ""
+    @State var members = ["Chris Gerello", "Zack O'Brien"] //[String]() this will get filled by user
     @State var team = Team()
     
-    var id: Int {
+    var id: Int { //this will get the next id for each team
         get{
-            
+            for sport in VM.sports{
+                if(sport.name == name){
+                    if(league == "A-League"){
+                        return sport.a_league.count + 1
+                    } else if(league == "A-League"){
+                        return sport.b_league.count + 1
+                    } else {
+                        return sport.c_league.count + 1
+                    }
+                }
+            }
             return 0
         }
     }
@@ -51,10 +62,11 @@ struct CreateView: View {
                     TextField("TigersImage", text: $image)
                 }
                 Button{
-                    print("\(name) were added to \(league) in \(sport)")
+                    print("\(name) were added to \(league) in \(sport) with id: \(id)")
                     team.league = league
                     team.name = name
                     team.image = image
+                    team.members = members
                     team.loss = 0
                     team.win = 0
                     team.tie = 0

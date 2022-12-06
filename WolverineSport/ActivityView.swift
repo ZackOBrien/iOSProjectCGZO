@@ -39,6 +39,7 @@ struct ActivityView: View {
                             .background(Color.green)
                             .cornerRadius(40)
                     }
+                    
                     Button{
                         print("tried to join team")
                     } label: {
