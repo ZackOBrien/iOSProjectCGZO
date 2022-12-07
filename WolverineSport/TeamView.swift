@@ -25,16 +25,6 @@ struct TeamView: View {
                 ForEach(team.members, id: \.self){ member in
                     Text("\(member)")
                 }
-//                Text("Chris Gerello (Captain)")
-//                Text("Zack O'Brien")
-//                Text("Tyler Fontana")
-//                Text("Kevin Hamby")
-//                Text("Grace Barnes")
-//                Text("Sean Matthews")
-//                Text("Dean O'Toole")
-//                Text("Thomas St. John")
-//                Text("Michael Kutschke")
-//                Text("Kat Shi")
             }
         }
     }
