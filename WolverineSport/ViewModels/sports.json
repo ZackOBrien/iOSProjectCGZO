@@ -6,7 +6,7 @@
             {
                 "id": 1,
                 "name":"Happy Friends",
-                "image":"circle",
+                "image":"face.smiling",
                 "league":"A-League",
                 "win":12,
                 "tie":0,
@@ -16,7 +16,7 @@
             {
                 "id": 2,
                 "name":"Team Team",
-                "image":"circle",
+                "image":"hands.sparkles",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
@@ -26,7 +26,7 @@
             {
                 "id": 3,
                 "name":"Texans",
-                "image":"circle",
+                "image":"fossil.shell",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
@@ -38,7 +38,7 @@
             {
                 "id": 1,
                 "name":"Cougars",
-                "image":"circle",
+                "image":"pawprint.circle",
                 "league":"B-League",
                 "win":12,
                 "tie":0,
@@ -48,7 +48,7 @@
             {
                 "id": 2,
                 "name":"Falcons",
-                "image":"circle",
+                "image":"wind.circle",
                 "league":"B-League",
                 "win":3,
                 "tie":3,
@@ -58,7 +58,7 @@
             {
                 "id": 3,
                 "name":"Ravens",
-                "image":"circle",
+                "image":"bird",
                 "league":"B-League",
                 "win":3,
                 "tie":3,
@@ -70,7 +70,7 @@
             {
                 "id": 1,
                 "name":"Hawks",
-                "image":"circle",
+                "image":"bird",
                 "league":"C-League",
                 "win":11,
                 "tie":1,
@@ -80,7 +80,7 @@
             {
                 "id": 2,
                 "name":"Elephants",
-                "image":"circle",
+                "image":"tropicalstorm.circle",
                 "league":"C-League",
                 "win":3,
                 "tie":3,
@@ -90,7 +90,7 @@
             {
                 "id": 3,
                 "name":"Clams",
-                "image":"circle",
+                "image":"water.waves",
                 "league":"C-League",
                 "win":5,
                 "tie":3,
@@ -106,7 +106,7 @@
             {
                 "id": 1,
                 "name":"Oranges",
-                "image":"circle",
+                "image":"circle.fill",
                 "league":"A-League",
                 "win":10,
                 "tie":0,
@@ -116,7 +116,7 @@
             {
                 "id": 2,
                 "name":"Hoppers",
-                "image":"circle",
+                "image":"figure.jumprope",
                 "league":"A-League",
                 "win":9,
                 "tie":3,
@@ -126,7 +126,7 @@
             {
                 "id": 3,
                 "name":"Tigers",
-                "image":"circle",
+                "image":"pawprint",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
@@ -138,7 +138,7 @@
             {
                 "id": 1,
                 "name":"Sharks",
-                "image":"circle",
+                "image":"figure.surfing",
                 "league":"B-League",
                 "win":1,
                 "tie":0,
@@ -148,7 +148,7 @@
             {
                 "id": 2,
                 "name":"Believers",
-                "image":"circle",
+                "image":"heart.circle",
                 "league":"B-League",
                 "win":7,
                 "tie":3,
@@ -158,7 +158,7 @@
             {
                 "id": 3,
                 "name":"Canada",
-                "image":"circle",
+                "image":"c.circle",
                 "league":"B-League",
                 "win":4,
                 "tie":3,
@@ -170,7 +170,7 @@
             {
                 "id": 1,
                 "name":"Tomcats",
-                "image":"circle",
+                "image":"t.circle",
                 "league":"C-League",
                 "win":5,
                 "tie":0,
@@ -180,7 +180,7 @@
             {
                 "id": 2,
                 "name":"Turkies",
-                "image":"circle",
+                "image":"x.circle.fill",
                 "league":"C-League",
                 "win":2,
                 "tie":2,
@@ -190,7 +190,7 @@
             {
                 "id": 3,
                 "name":"Goats",
-                "image":"circle",
+                "image":"trophy",
                 "league":"C-League",
                 "win":5,
                 "tie":2,
@@ -206,7 +206,7 @@
             {
                 "id": 1,
                 "name":"Bald Guy",
-                "image":"circle",
+                "image":"person",
                 "league":"A-League",
                 "win":12,
                 "tie":0,
@@ -216,7 +216,7 @@
             {
                 "id": 2,
                 "name":"Bad",
-                "image":"circle",
+                "image":"sun.max.trianglebadge.exclamationmark.fill",
                 "league":"A-League",
                 "win":0,
                 "tie":0,
@@ -226,7 +226,7 @@
             {
                 "id": 3,
                 "name":"Coding Guy",
-                "image":"circle",
+                "image":"laptopcomputer.and.iphone",
                 "league":"A-League",
                 "win":10,
                 "tie":3,
@@ -238,7 +238,7 @@
             {
                 "id": 1,
                 "name":"Tall",
-                "image":"circle",
+                "image":"lines.measurement.horizontal",
                 "league":"B-League",
                 "win":1,
                 "tie":0,
@@ -248,7 +248,7 @@
             {
                 "id": 2,
                 "name":"Team 3",
-                "image":"circle",
+                "image":"die.face.3",
                 "league":"B-League",
                 "win":0,
                 "tie":0,
@@ -258,7 +258,7 @@
             {
                 "id": 3,
                 "name":"Barnes",
-                "image":"circle",
+                "image":"house",
                 "league":"B-League",
                 "win":10,
                 "tie":3,
@@ -270,7 +270,7 @@
             {
                 "id": 1,
                 "name":"Tall Man",
-                "image":"circle",
+                "image":"lines.measurement.horizontal",
                 "league":"C-League",
                 "win":12,
                 "tie":0,
@@ -280,7 +280,7 @@
             {
                 "id": 2,
                 "name":"Zack",
-                "image":"circle",
+                "image":"eye",
                 "league":"C-League",
                 "win":3,
                 "tie":3,
@@ -290,7 +290,7 @@
             {
                 "id": 3,
                 "name":"Afro",
-                "image":"circle",
+                "image":"cloud.sun.bolt",
                 "league":"C-League",
                 "win":3,
                 "tie":3,
@@ -300,13 +300,13 @@
         ]
     },
     {
-        "name" : "Soccerball",
+        "name" : "Soccer",
         "image" : "soccerball",
         "a_league":[
             {
                 "id": 1,
                 "name":"Strikers",
-                "image":"circle",
+                "image":"figure.soccer",
                 "league":"A-League",
                 "win":10,
                 "tie":2,
@@ -316,7 +316,7 @@
             {
                 "id": 2,
                 "name":"Saves Alot",
-                "image":"circle",
+                "image":"square.and.arrow.down.fill",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
@@ -326,7 +326,7 @@
             {
                 "id": 3,
                 "name":"Eagles",
-                "image":"circle",
+                "image":"swift",
                 "league":"A-League",
                 "win":3,
                 "tie":3,
@@ -338,7 +338,7 @@
             {
                 "id": 1,
                 "name":"Slide Tackles",
-                "image":"circle",
+                "image":"slider.horizontal.below.rectangle",
                 "league":"B-League",
                 "win":12,
                 "tie":0,
@@ -348,7 +348,7 @@
             {
                 "id": 2,
                 "name":"It's Soccer",
-                "image":"circle",
+                "image":"soccerball.inverse",
                 "league":"B-League",
                 "win":3,
                 "tie":5,
@@ -358,7 +358,7 @@
             {
                 "id": 3,
                 "name":"Football",
-                "image":"circle",
+                "image":"figure.australian.football",
                 "league":"B-League",
                 "win":3,
                 "tie":5,
@@ -370,7 +370,7 @@
             {
                 "id": 1,
                 "name":"FC Barcelona",
-                "image":"circle",
+                "image":"checkerboard.shield",
                 "league":"C-League",
                 "win":6,
                 "tie":0,
@@ -380,7 +380,7 @@
             {
                 "id": 2,
                 "name":"Bayern Munich",
-                "image":"circle",
+                "image":"circle.hexagongrid.circle",
                 "league":"C-League",
                 "win":0,
                 "tie":3,
@@ -390,7 +390,7 @@
             {
                 "id": 3,
                 "name":"Eintracht Frankfurt",
-                "image":"circle",
+                "image":"bonjour",
                 "league":"C-League",
                 "win":10,
                 "tie":3,
@@ -406,7 +406,7 @@
             {
                 "id": 1,
                 "name":"Spike",
-                "image":"circle",
+                "image":"pencil.slash",
                 "league":"A-League",
                 "win":12,
                 "tie":0,
@@ -416,7 +416,7 @@
             {
                 "id": 2,
                 "name":"Saves",
-                "image":"circle",
+                "image":"checkmark.seal",
                 "league":"A-League",
                 "win":3,
                 "tie":0,
@@ -426,7 +426,7 @@
             {
                 "id": 3,
                 "name":"Deers",
-                "image":"circle",
+                "image":"laurel.trailing",
                 "league":"A-League",
                 "win":5,
                 "tie":0,
@@ -438,7 +438,7 @@
             {
                 "id": 1,
                 "name":"Lions",
-                "image":"circle",
+                "image":"microbe.circle.fill",
                 "league":"B-League",
                 "win":6,
                 "tie":0,
@@ -448,7 +448,7 @@
             {
                 "id": 2,
                 "name":"Eagles",
-                "image":"circle",
+                "image":"swift",
                 "league":"B-League",
                 "win":3,
                 "tie":0,
@@ -458,7 +458,7 @@
             {
                 "id": 3,
                 "name":"Bulldogs",
-                "image":"circle",
+                "image":"pawprint",
                 "league":"B-League",
                 "win":3,
                 "tie":0,
@@ -470,7 +470,7 @@
             {
                 "id": 1,
                 "name":"Golden Tornadoes",
-                "image":"circle",
+                "image":"tornado",
                 "league":"C-League",
                 "win":1,
                 "tie":0,
@@ -480,7 +480,7 @@
             {
                 "id": 2,
                 "name":"Wolverines",
-                "image":"circle",
+                "image":"wonsign",
                 "league":"C-League",
                 "win":5,
                 "tie":0,
@@ -490,7 +490,7 @@
             {
                 "id": 3,
                 "name":"Mustangs",
-                "image":"circle",
+                "image":"tortoise",
                 "league":"C-League",
                 "win":3,
                 "tie":0,
