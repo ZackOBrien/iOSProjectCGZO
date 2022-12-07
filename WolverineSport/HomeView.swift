@@ -30,6 +30,7 @@ struct HomeView: View {
                             .font(.title)
                             .underline()
                             .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading)
                         Text("\(formattedString)")
                             .font(.title)
                             .onReceive(countDown){ _ in //this is the count down clock
@@ -79,7 +80,7 @@ struct HomeView: View {
                 .padding()
                 
                 VStack{
-                    Text("Upcomming games:")
+                    Text("Upcoming games:")
                         .font(.title)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.bottom)

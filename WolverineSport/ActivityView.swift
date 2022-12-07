@@ -56,28 +56,39 @@ struct ActivityView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     //.bold()
                     .padding(.leading)
-                ScrollView(.horizontal) {
-                    HStack(spacing: 20) {
-                        ForEach(sport.a_league) {s in
-                            NavigationLink{
-                                TeamView(team: s)
+                VStack{
+                    Section(header: Text("A-League Teams")){
+                        ForEach(sport.a_league) { t in
+                            NavigationLink {
+                                TeamView(team: t)
                             } label: {
-                                HStack{
-                                    Image(systemName: "\(s.image)")
-                                        .resizable()
-                                        .frame(width: 25, height: 25)
-                                        .foregroundColor(.white)
-                                    Text("\(s.name)")
-                                        .font(.title2)
-                                }
-                                .foregroundColor(.white)
-                                .frame(width: 150, height: 125)
-                                .background(.red)
-                                .cornerRadius(20)
+                                TeamRowView(team: t)
                             }
                         }
                     }
                 }
+//                ScrollView(.horizontal) {
+//                    HStack(spacing: 20) {
+//                        ForEach(sport.a_league) {s in
+//                            NavigationLink{
+//                                TeamView(team: s)
+//                            } label: {
+//                                HStack{
+//                                    Image(systemName: "\(s.image)")
+//                                        .resizable()
+//                                        .frame(width: 25, height: 25)
+//                                        .foregroundColor(.white)
+//                                    Text("\(s.name)")
+//                                        .font(.title2)
+//                                }
+//                                .foregroundColor(.white)
+//                                .frame(width: 150, height: 125)
+//                                .background(.red)
+//                                .cornerRadius(20)
+//                            }
+//                        }
+//                    }
+//                }
                 .padding()
                 
                 Text("B-League Teams:")

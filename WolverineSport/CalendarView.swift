@@ -38,10 +38,11 @@ struct CalendarView: View {
                         Text("C League Ping Pong Semifinals")
                             .font(.title3)
                             .foregroundColor(.black)
-                }.navigationTitle("Events")
+                }
+                .navigationBarHidden(true)
             }
         }
-        .padding(.vertical, 25)
+//        .padding(.vertical, 25)
     }
 }
 

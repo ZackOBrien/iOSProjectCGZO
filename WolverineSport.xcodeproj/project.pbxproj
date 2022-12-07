@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E20E8A68292DC087005D09C9 /* Sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E8A67292DC087005D09C9 /* Sport.swift */; };
 		E20E8A6A292DC09D005D09C9 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20E8A69292DC09D005D09C9 /* ViewModel.swift */; };
+		E21338F02940F42300BDEB62 /* TeamRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21338EF2940F42300BDEB62 /* TeamRowView.swift */; };
 		E29042F6293C55FB00598ABE /* CreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29042F5293C55FB00598ABE /* CreateView.swift */; };
 		E2B5C64F292E56E0003C040A /* sports.json in Resources */ = {isa = PBXBuildFile; fileRef = E2B5C64E292E56E0003C040A /* sports.json */; };
 		E2B5C651292E5B50003C040A /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B5C650292E5B50003C040A /* Team.swift */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		E20E8A67292DC087005D09C9 /* Sport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sport.swift; sourceTree = "<group>"; };
 		E20E8A69292DC09D005D09C9 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E21338EF2940F42300BDEB62 /* TeamRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRowView.swift; sourceTree = "<group>"; };
 		E29042F5293C55FB00598ABE /* CreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateView.swift; sourceTree = "<group>"; };
 		E2B5C64E292E56E0003C040A /* sports.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = sports.json; path = ViewModels/sports.json; sourceTree = "<group>"; };
 		E2B5C650292E5B50003C040A /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
@@ -65,6 +67,7 @@
 			children = (
 				E20E8A67292DC087005D09C9 /* Sport.swift */,
 				E2B5C650292E5B50003C040A /* Team.swift */,
+				E21338EF2940F42300BDEB62 /* TeamRowView.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				E2C6C39C29232033004BD2A4 /* ContentView.swift in Sources */,
 				E29042F6293C55FB00598ABE /* CreateView.swift in Sources */,
 				E2C6C3AC2923223A004BD2A4 /* TestView.swift in Sources */,
+				E21338F02940F42300BDEB62 /* TeamRowView.swift in Sources */,
 				E2C6C3B629232359004BD2A4 /* HomeView.swift in Sources */,
 				E2C6C3AA29232154004BD2A4 /* SportsView.swift in Sources */,
 				E20E8A6A292DC09D005D09C9 /* ViewModel.swift in Sources */,
