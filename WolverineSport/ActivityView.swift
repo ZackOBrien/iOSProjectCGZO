@@ -51,101 +51,44 @@ struct ActivityView: View {
                             .cornerRadius(40)
                     }
                 }
-                
-                Text("A-League Teams:")
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    //.bold()
-                    .padding(.leading)
                 VStack{
-                    Section(header: Text("A-League Teams")){
+                    Section(header: Text("A-League Teams").font(.title2).bold()){
                         ForEach(sport.a_league) { t in
                             NavigationLink {
                                 TeamView(team: t)
                             } label: {
                                 TeamRowView(team: t)
+                                    .padding([.leading, .trailing])
                             }
                         }
                     }
                 }
-//                ScrollView(.horizontal) {
-//                    HStack(spacing: 20) {
-//                        ForEach(sport.a_league) {s in
-//                            NavigationLink{
-//                                TeamView(team: s)
-//                            } label: {
-//                                HStack{
-//                                    Image(systemName: "\(s.image)")
-//                                        .resizable()
-//                                        .frame(width: 25, height: 25)
-//                                        .foregroundColor(.white)
-//                                    Text("\(s.name)")
-//                                        .font(.title2)
-//                                }
-//                                .foregroundColor(.white)
-//                                .frame(width: 150, height: 125)
-//                                .background(.red)
-//                                .cornerRadius(20)
-//                            }
-//                        }
-//                    }
-//                }
-                .padding()
                 
-                Text("B-League Teams:")
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    //.bold()
-                    .padding(.leading)
-                ScrollView(.horizontal) {
-                    HStack(spacing: 20) {
-                        ForEach(sport.b_league) {s in
-                            NavigationLink{
-                                TeamView(team: s)
+                VStack{
+                    Section(header: Text("B-League Teams").font(.title2).bold()){
+                        ForEach(sport.b_league) { t in
+                            NavigationLink {
+                                TeamView(team: t)
                             } label: {
-                                HStack{
-                                    Image(systemName: "\(s.image)")
-                                        .resizable()
-                                        .frame(width: 25, height: 25)
-                                        .foregroundColor(.white)
-                                    Text("\(s.name)")
-                                        .font(.title2)
-                                }
-                                .foregroundColor(.white)
-                                .frame(width: 150, height: 125)
-                                .background(.red)
-                                .cornerRadius(20)
+                                TeamRowView(team: t)
+                                    .padding([.leading, .trailing])
                             }
                         }
                     }
                 }
-                .padding()
-                
-                Text("C-League Teams:")
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    //.bold()
-                    .padding(.leading)
-                ScrollView(.horizontal) {
-                    HStack(spacing: 20) {
-                        ForEach(sport.c_league) {s in
-                            NavigationLink{
-                                TeamView(team: s)
+
+                VStack{
+                    Section(header: Text("C-League Teams").font(.title2).bold()){
+                        ForEach(sport.c_league) { t in
+                            NavigationLink {
+                                TeamView(team: t)
                             } label: {
-                                HStack{
-                                    Image(systemName: "\(s.image)")
-                                        .resizable()
-                                        .frame(width: 25, height: 25)
-                                        .foregroundColor(.white)
-                                    Text("\(s.name)")
-                                        .font(.title2)
-                                }
-                                .foregroundColor(.white)
-                                .frame(width: 150, height: 125)
-                                .background(.red)
-                                .cornerRadius(20)
+                                TeamRowView(team: t)
+                                    .padding([.leading, .trailing])
                             }
                         }
                     }
                 }
-                .padding()
             }
         }//
     }
